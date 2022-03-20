@@ -1,0 +1,50 @@
+@import url('./reset.css');
+.clearfix::after{content:".";display:block;clear:both;height:0;visibility:hidden;}
+
+.info_list,.blog_list{
+  table-layout: fixed;
+  width: 100%;
+  text-align: left;
+}
+
+.list_registration_datetime, .list_tag{
+  width: 15%;
+}
+
+.list_img{
+  width: 12%;
+}
+
+.list_datetime{
+  width: 18%;
+}
+
+.info_list_box td, .blog_list_box td{
+  vertical-align: middle;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.tag_message{
+  font-size: 17px;
+}
+
+/*public*/
+.info_img, .blog_img{
+  width: 90%;
+}
+
+#search_page{
+  margin: auto 10%;
+}
+
+.search_error{
+  text-align: center;
+  min-height: 300px;
+  padding-top: 250px;
+}
+
+.inquiryConfirm_contents > dl > dt, .inquiry_confirm_form > dl > dt{
+  font-weight: bold;
+  margin-right: 20px;
+}
